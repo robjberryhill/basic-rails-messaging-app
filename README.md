@@ -1,13 +1,7 @@
-# README
+# Mini Messaging App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Rails version - 5.2.4.1
+* semantic-ui-sass (2.4.2.0)
 
 * Configuration
 
@@ -19,6 +13,7 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+### This app covers
+- Installing front end framework `gem 'semantic-ui'`.
+- Installing front end framework dependency `gem 'jquery-rails'`.
+  * see `application.js` for implementation of the requires and jquery usage for semantic ui.
