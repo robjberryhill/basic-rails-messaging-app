@@ -23,3 +23,4 @@
   * Generator `https://gauger.io/fonticon/`.
   * In `application.html.erb` add `<%= favicon_link_tag %>`.
     - `favicon_link_tag` does all the rails magic for you.
+- Using Semantic UI to style easily style pages.
