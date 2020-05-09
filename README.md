@@ -26,3 +26,12 @@
 - Using Semantic UI to style easily style pages.
 - Using `gem "hirb"` for better console results
   * `Hirb.enable` while in console.
+- Installing websockets with actioncable.
+  * `rails g channel channelname`
+  * In `routes.rb` - `mount ActionCable.server, at: "/cable"`
+  * `chatroom_channel.rb`
+  * `messages_controller.rb`
+  * `chatroom.coffee`
+- Using scopes to display what I want.
+  * In `message.rb` - `scope :custom_display, -> { order(:created_at).last(20) }`
+  * referenced in `chatroom_controller.rb`
