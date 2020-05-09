@@ -5,13 +5,7 @@
     <div class="ui fluid raised card chatbox">
       <div class="content">
         <div class="ui feed">
-          <div class="event">
-            <div class="content">
-              <div class="summary">
-                <em>User Name</em>: Test message
-              </div>
-            </div>
-          </div>
+          <%= render partial: '/messages/message', locals: { obj: @messages } %>
         </div>
       </div>
       <div class="extra content">
