@@ -4,16 +4,6 @@
 * Rails version - 5.2.4.1
 * semantic-ui-sass (2.4.2.0)
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
 ### This app covers
 - Installing front end framework `gem 'semantic-ui'`.
 - Installing front end framework dependency `gem 'jquery-rails'`.
@@ -35,3 +25,9 @@
 - Using scopes to display what I want.
   * In `message.rb` - `scope :custom_display, -> { order(:created_at).last(20) }`
   * referenced in `chatroom_controller.rb`
+- Using redis in production to use actioncable.
+  * `cable.yml`
+  * `Gemfile`
+  * `production.rb`
+
+* Based on course from Udemy: Instructors - Rob Percival & Mashrur Hossain
